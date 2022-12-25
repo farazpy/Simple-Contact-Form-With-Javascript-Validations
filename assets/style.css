@@ -1,0 +1,55 @@
+/*
+TITLE : CONTACT FORM - HTML CSS
+MADE BY : FARAZ KHAN (WEB DESIGNER/DEVELOPER)
+INSTAGRAM: @faraz_py
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap?i=2'); 
+
+
+* {
+    -webkit-tap-highlight-color: transparent ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.form_container {
+    background-color: white;
+    padding: 15px 25px;
+    width: 20rem ;
+    margin: 0 auto ;
+    border-radius: 5px ;
+}
+
+label {
+    display: block ;
+    margin : 25px 0px 15px 0px ;
+}
+
+.divider {
+    background-color: #ccc;
+    width: 20rem ;
+    height: 0.4px ;
+}
+
+.input {
+    background-color: #fff;
+    padding: 10px 12px ;
+    width: 19rem ;
+    border : 0.4px solid #ccc ;
+    border-radius:  4px ;
+}
+
+.input_button {
+    background-color: orchid ;
+    color:  white ;
+    padding: 10px 20px ;
+    border:  none ;
+    border-radius: 5px ;
+    margin: 15px 0px ;
+    display: block ;
+}
+

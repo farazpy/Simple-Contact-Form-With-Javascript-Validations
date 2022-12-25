@@ -1,0 +1,50 @@
+<!--
+TITLE : CONTACT FORM - HTML CSS
+MADE BY : FARAZ KHAN (WEB DESIGNER/DEVELOPER)
+INSTAGRAM: @faraz_py
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Contact Form - HTML & CSS</title>
+
+
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/main.js"></script>
+</head>
+
+<body>
+
+
+    <div class="form_container">
+        <h1>Contact Form</h1>
+        <p>Reach and report your issue within a minute. Our developers will reach you through your provided email address.</p>
+        <div class="divider"></div>
+
+
+        <form action="data.php" id="form" name="contact_form" method="POST">
+
+            <div style="margin-top: 15px;" id="post_message"></div>
+
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" placeholder="eg. Faraz Khan" class="input">
+
+            <label for="email">Enter your email:</label>
+            <input type="text" id="email" placeholder="eg. username@mail.com" class="input">
+
+            <label for="subject">Enter your subject:</label>
+            <input type="text" id="subject" placeholder="eg. unable to process { file | operation }" class="input">
+
+            <label for="detail">Enter your subject:</label>
+            <textarea rows="5" id="detail" placeholder="Describe your issue..." class="input"></textarea>
+
+            <button class="input_button" onclick="validateForm()" type="button">SEND</button>
+
+        </form>
+    </div>
+
+
+</body>
+</html>
